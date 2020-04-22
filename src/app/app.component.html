@@ -1,0 +1,14 @@
+<div class="container">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="list" class="nav-link" queryParamsHandling="preserve">List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="create" class="nav-link">Create</a>
+      </li>
+    </ul>
+  </nav>
+  <div *ngIf="showLoadingIndicator" class="spinner"></div>
+  <router-outlet></router-outlet>
+</div>

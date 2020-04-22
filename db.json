@@ -1,0 +1,75 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Mark",
+      "contactPreference": "email",
+      "email": "mark@email.com",
+      "phone": "5641238971",
+      "skills": [
+        {
+          "skillName": "C#",
+          "experienceInYears": 1,
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Java",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Jake",
+      "contactPreference": "phone",
+      "email": "jake@email.com",
+      "phone": "3242138971",
+      "skills": [
+        {
+          "skillName": "Angular8",
+          "experienceInYears": "3",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "HTML5",
+          "experienceInYears": "3",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "LINQ",
+          "experienceInYears": "4",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Tornik",
+      "contactPreference": "phone",
+      "email": "t.janashia11@gmail.com",
+      "skills": [
+        {
+          "skillName": "Angular8",
+          "experienceInYears": "3",
+          "proficiency": "intermediate"
+        }
+      ],
+      "phone": "34535"
+    },
+    {
+      "id": 4,
+      "fullName": "Tornike",
+      "contactPreference": "phone",
+      "email": "t.janashia11@gmail.com",
+      "phone": "34535",
+      "skills": [
+        {
+          "skillName": "Angular8",
+          "experienceInYears": "3",
+          "proficiency": "intermediate"
+        }
+      ]
+    }
+  ]
+}

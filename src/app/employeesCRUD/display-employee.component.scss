@@ -1,0 +1,33 @@
+.imageClass {
+  width: 200px;
+  height: 200px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+div > {
+  button {
+    &.btn {
+      width: 70px;
+      font-size: 0.9rem;
+
+      &-primary {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  span > {
+
+    button {
+      &.btn {
+        &-danger {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

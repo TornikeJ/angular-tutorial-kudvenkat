@@ -1,0 +1,48 @@
+$color1: red;
+$color2: green;
+
+div > {
+  button {
+    &.btn {
+      font-size: 0.9rem;
+
+      &-primary {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  span > {
+    button {
+      &.btn {
+        &-danger {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.invalid-input {
+  color: $color1;
+  border-color: $color1;
+
+  .form-control {
+    color: $color1;
+    border-color: $color1;
+  }
+}
+
+.valid-input {
+  color: $color2;
+  border-color: $color2;
+
+  .form-control {
+    color: $color2;
+    border-color: $color2;
+  }
+}
+
+hr {
+  border: 1px solid silver;
+}

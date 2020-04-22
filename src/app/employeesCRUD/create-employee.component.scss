@@ -1,0 +1,22 @@
+$color1: red;
+$color2: green;
+
+.invalid-input {
+  color: $color1;
+  border-color: $color1;
+
+  .form-control {
+    color: $color1;
+    border-color: $color1;
+  }
+}
+
+.valid-input {
+  color: $color2;
+  border-color: $color2;
+
+  .form-control {
+    color: $color2;
+    border-color: $color2;
+  }
+}
